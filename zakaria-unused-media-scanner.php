@@ -1,7 +1,6 @@
 <?php
 /**
  * Plugin Name: Zakaria Unused Media Scanner
- * Update URI: https://github.com/zakariamahboub/zakaria-unused-media-scanner
  * Plugin URI: https://zakariamahboub.ma
  * Description: Scanne votre site pour lister les images potentiellement non utilisées (articles, pages, produits, Elementor, ACF, options) + références dans les fichiers du thème actif. Export CSV + mise à la corbeille sécurisée. Utilisez de préférence sur un staging et gardez une sauvegarde.
  * Version: 1.0.2
@@ -21,11 +20,8 @@ if (!defined('ABSPATH')) { exit; }
 define('ZUMS_PLUGIN_VERSION', '1.0.2');
 define('ZUMS_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('ZUMS_PLUGIN_URL', plugin_dir_url(__FILE__));
-define('ZUMS_PLUGIN_BASENAME', plugin_basename(__FILE__));
 
 require_once ZUMS_PLUGIN_DIR . 'includes/class-zums-scanner.php';
-require_once ZUMS_PLUGIN_DIR . 'includes/class-zums-updater.php';
-
 
 class ZUMS_Plugin {
     public function __construct() {
