@@ -3,7 +3,7 @@
  * Plugin Name: Zakaria Unused Media Scanner
  * Plugin URI: https://zakariamahboub.ma
  * Description: Scanne votre site pour lister les images potentiellement non utilisées (articles, pages, produits, Elementor, ACF, options) + références dans les fichiers du thème actif. Export CSV + mise à la corbeille sécurisée. Utilisez de préférence sur un staging et gardez une sauvegarde.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: Zakaria Mahboub
  * Author URI: https://zakariamahboub.ma
  * Text Domain: zakaria-unused-media-scanner
