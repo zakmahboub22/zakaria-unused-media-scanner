@@ -1,3 +1,1 @@
-.wrap #zums-bar{ border-radius: 3px; overflow: hidden; }
-.wrap #zums-bar-fill{ transition: width .2s linear; }
-#zums-table td, #zums-table th{ vertical-align: middle; }
+.wrap #ums-bar{ border-radius: 3px; overflow: hidden; } .wrap #ums-bar-fill{ transition: width .2s linear; } #ums-table td, #ums-table th{ vertical-align: middle; }
